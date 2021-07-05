@@ -1,0 +1,100 @@
+<!-- HTML 주석 방법 -->
+
+<!DOCTYPE html> <!-- HTML5 문서입니다 -->
+<html> <!-- HTML 시작 태그  -->
+<head> <!-- 문서의 정보 -->
+	<meta charset="UTF-8"> <!-- 인코딩 방법, 빈 태그(닫는 태그가 없는 태그) -->
+	<title>HTML5 연습</title> <!-- 제목표시줄 설정  -->
+</head>
+
+<body id="top"> <!-- 화면에 보여지는 부분 -->
+<h1>좋아하는 캐릭터 종류 </h1> <!-- 제목태그, h1(가장큼) ~ h6(가장작음)-->
+
+<hr> <!-- 수평선 추가 -->
+
+<h2>카카오프렌즈</h2>
+<img src="img1.jpg"  width="400" height="200"> <!-- 이미지 태그, src는 img태그의 속성 -->
+<hr>
+<p> <!-- 문단 태그  --> 
+<i>세부적으로는</i> 무지 앤 프렌즈와 프로도 앤 프렌즈로 구성되어 있으며,
+<strong>2016년</strong>에 새로운 캐릭터인 라이언이 추가되었다. <br>
+후속작으로 <mark>니니즈</mark>가 나왔다.
+</p>
+
+<hr>
+
+<ol> <!-- 순서가  있는 목록 태그-->
+	<li>라이언</li>
+	<li>어피치</li>
+	<li>튜브</li>
+	<li>무지</li>
+</ol>
+
+<ul> <!-- 순서가  없는 목록 태그-->
+	<li><a href="#ch1">라이언</a></li>
+	<li><a href="#ch2">어피치</a></li>
+	<li><a href="#ch3">튜브</a></li>
+	<li><a href="#ch4">무지</a></li>
+</ul>
+
+<hr>
+
+<h3 id="ch1">라이언</h3>
+<p>
+의젓한 모범생, <strong>라이언</strong>.<br>친구들을 먼저 챙기며 늘 솔선수범하는 리틀프렌즈의 반장입니다. 조숙한 성격답게 하루를 끝마치고 즐기는 반신욕을 제일 좋아합니다.
+</p>
+<img src="img2.gif"  width="200" height="200">
+<hr>
+
+<h3 id="ch2">어피치</h3>
+<p>
+미워할 수 없는 악동, <strong>어피치</strong>.<br>잘 때는 한없이 천사 같지만 눈만 뜨면 장난꾸러기로 변합니다. 귀여운 척을 하면 일이 잘 풀린다는 것을 본능적으로 알고 있습니다.
+</p>
+<img src="img3.jpg"  width="200" height="200">
+<hr>
+
+<h3 id="ch3">튜브</h3>
+<p>
+겁 많은 작은 오리, <strong>튜브</strong>.<br>큰 신발을 신으면 발이 커질 거라 믿고 늘 큰 오리발을 신고 다닙니다. 물장난을 좋아하여 365일 코감기를 달고 삽니다.
+</p>
+<img src="img4.jpg" width="200" height="200">
+<hr>
+
+<h3 id="ch4">무지</h3>
+<p>
+호기심 많은 먹보, <strong>무지</strong>.<br>보이는 모든 것을 먹을 수 있느냐 없느냐로 구분합니다. 먹는 것과 자는 것을 동시에 하는, 천재 소리를 듣는 아이입니다.
+</p>
+<img src="img5.jpg" width="200" height="200">
+<hr>
+
+<!-- 테이블 태그 -->
+<!-- tr(행), th(열, 진하게), td(열, 기본 왼쪽정렬) -->
+<table>
+	<caption>그 외 카카오 프렌즈 캐릭터</caption> <!-- 테이블 제목 -->
+	<tr><th>이름</th><th>이미지</th><th>설명</th></tr>
+	<tr><td>제이지</td><td><img src="img6.jpg" width="100" height="100"></td><td>제이지 입니다</td></tr>
+	<tr><td>네오</td><td><img src="img7.jpg" width="100" height="100"></td><td>네오 입니다</td></tr>
+	<tr><td>콘</td><td><img src="img8.jpg" width="100" height="100"></td><td>콘 입니다</td></tr>
+</table>
+
+<hr>
+
+<details>
+	<summary>내가 좋아하는 카카오 캐릭터 BEST 3</summary>
+	<P>내 맘대로 정하는 순서입니다</P>
+	<ol>
+		<li>어피치</li>
+		<li>무지</li>
+		<li>콘</li>
+	</ol>
+	<img src="img9.jpg" width="100" height="100">
+</details>
+
+<hr>
+
+<p>&#128516;카카오 프렌즈 사이트로 이동합니다.&#128516; <a target="_blank" href="https://www.kakaocorp.com/page/service/service/Kakao%20Friends">이곳</a>을 클릭하세요.</p>
+
+<p>맨 위로 올라갑니다. <a href="#top">클릭해보세요.</a></p>
+
+</body>
+</html>
