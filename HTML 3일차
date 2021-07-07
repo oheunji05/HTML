@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5/CSS3 TEST SITE</title>
+	<!-- 외부 스타일시트 적용 -->
+	<link rel="stylesheet" type=" text/css" href="style.css">
+</head>
+
+<body>
+<div id="main"><!-- 영역 태그 -->
+<header><!-- 시맨틱태그(머리글영역) -->
+<div id="logo">
+	<h1>HTML5/CSS3<a href="index.html">_TEST SITE</a></h1>
+	<h2>HTML5, CSS3를 이용한 웹 개발 테스트 사이트 입니다.</h2>
+</div>
+<nav><!-- 글로벌 네비게이션(주메뉴영역) -->
+	<ul id="menu"><!-- 순서 없는 목록 -->
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="#">메뉴 1</a></li>
+		<li><a href="#">메뉴 2</a></li>
+		<li><a href="#">메뉴 3</a></li>
+		<li><a href="#">메뉴 4</a></li>
+	</ul>
+</nav>
+</header>
+
+<div id="site_content"><!-- 본문 영역 -->
+<aside><!-- 광고, 링크등의 영역 -->
+<h1>최신뉴스</h1>
+<h4>HTML5는 어떻게 활용해야 하는 언어인가?</h4>
+<h5>2021-07-07</h5>
+<p>
+WHWHATWG와 W3C가 발표하는 HTML의 최신 버전으로, 2014년 10월 28일 완전히 표준화되었다. XHTML에서 다시 HTML로 회귀하게 되었다. 따라서 HTML5는 XHTML의 상위 버전이 아니라, HTML4.01의 상위 버전이다. 완전히 XHTML 문법을 버린 것은 아니고 선택적으로 이용할 수 있게 되어있다. 어도비 플래시나 실버라이트 등의 플러그인을 기반으로 하는 응용 프로그램에 대한 필요성을 줄이는 것에 초점을 맞추고 있다. 이러한 방향성 덕분에 한국에서는 웹 표준에 대한 문제가 이슈로 떠오르면서 함께 주목을 받기도 하였다.
+</p>
+
+<p>더 많은 정보는 <a href="https://namu.wiki/w/HTML5">이곳</a>을 클릭하세요.</p>
+
+<h1>참조링크</h1>
+<ul>
+	<li><a href ="#">link 1</a></li>
+	<li><a href ="#">link 2</a></li>
+	<li><a href ="#">link 3</a></li>
+	<li><a href ="#">link 4</a></li>
+</ul>
+
+<h1>기타정보</h1>
+<p>HTML5 기타 정보입니다.</p>
+<img src="img1.gif" width="200">
+</aside>
+
+<section>
+	<article><!-- 기사 내용 등  -->
+		<h2>Article 1</h2>
+		<p>HTML5라고 불리우는 개념은 단순히 웹 문서를 작성할 때 사용되는 마크업 랭귀지(HTML)의 문법적(syntactic) 버전뿐만 아니라 새로운 DOM API 스펙을 포함하는 것이다.
+		      문법면에서는 이전에 비해 상당히 간결하고 명확해졌다. XHTML에 있던 XML 문법도 모두 제거되어 HTML 4.01의 방식으로 돌아갔다. 또한 이전에는 JavaScript를 사용해서 엄청나게 긴 코드를 써서 간접적으로 구현해야 했던 기능들이 정식 엘리먼트로 편입됨으로써 간단하게 구현해낼 수 있게 되었고, 불필요하게 길게 적어야 했던 이전 버전에서 꼭 필요한 부분만 남기도록 바뀌는 등 여러가지 개선점이 생겼다.</p>
+		<p>더 많은 정보는 <a href="https://namu.wiki/w/HTML5">이곳</a>을 클릭하세요.</p>
+	</article>
+	
+	<article><!-- 기사 내용 등  -->
+		<h2>Article 2</h2>
+		<p>웹 표준을 지원하는 주요 웹 브라우저 종류</p>
+		<ul>
+			<li>크롬</li>
+			<li>익스플로러</li>
+			<li>사파리</li>
+			<li>오페라</li>
+			<li>파이어폭스</li>
+		</ul>
+	</article>
+	
+	<article><!-- 기사 내용 등  -->
+		<h2>Article 3</h2>
+		<table>
+		<caption>css 사용 이점</caption>
+		<tr><th>이점</th><th>설명</th></tr> <!-- th: 진하게 -->
+		<tr><td>확장성</td><td>표현을 더욱 다양하게 확장하거나 표현 기능 변경 가능</td></tr>
+		<tr><td>편의성</td><td>간단하게 레이아웃 드으이 스타일 구성 가능</td></tr>
+		<tr><td>재사용성</td><td>비슷한 표현 스타일을 갖는 여러 HTML 문서에 공통으로 활용 가능</td></tr>
+		<tr><td>생산성</td><td>모듈 단위의 협업과 생산성 향상 가능</td></tr>
+		</table>
+	</article>
+</section>
+</div>
+
+<footer><!-- 바닥글 영역 -->
+<p><a href="index.html">HOME</a> | <a href="#">메뉴 1</a> | <a href="#">메뉴 2</a> | <a href="#">메뉴 3</a> | <a href="#">메뉴 4</a></p>
+<p>Copyright &copy; EUNJI | <a href="https://www.w3schools.com/">w3schools</a> | <a href="#">기타 웹표준 사이트</a></p>
+</footer> 
+
+</div>
+</body>
+
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------
+/*style.css*/
+*{/*전체(모든) 선택자*/
+	margin: 0;/*바깥 여백*/
+	padding: 0;/*안쪽 여백*/
+}
+
+html{/* 태그 선택자*/
+	height: 100%;
+}
+
+body{
+	font: normal 0.8em sans-serif, arial;/*보통체, 사이즈0.8em, 글꼴 설정*/
+	background-colof: #c0c0c0;/*배경색 설정*/
+	color: gray;
+}
+
+p{
+	padding: 0 0 18px 0;/*안쪽 여백(위, 오른, 아래, 왼쪽)*/
+	line-height: 1.7em;/*줄간격(170%)*/
+}
+
+img{
+	border: 0;/*테두리 없음*/
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size: 165%;
+	color:#688a97;0;
+	margin: 0 0 14px 
+}
+
+h2{
+	color: #8080c0;
+}
+
+h4,h5,h6{
+	color: #8080ff
+	margin:0;
+	padding: 0 0 5px 0;
+}
+
+h5,h6{
+	color : #0000a0;
+	font: italic 95% arial;
+}
+
+a, a:hover{/*상태선택자(a:hover는 a태그에 마우스 올라간 상태)*/
+	outline: none;
+	text-decoration: underline;/*밑줄*/
+	color: #808080;
+}
+
+a:hover{
+	text-decoration: none;/*밑줄 없음*/
+}
+
+ul{
+	margin: 2px 0 0 17px;
+}
+
+ul li{/*계층선택자(ul태그 아래의 li태그)*/
+	list-style-type: circle;/*글머리 기호 설정(흰원)*/
+	margin: 0 0 3px 0;
+	padding: 0 0 4px 5px;
+}
+
+/* 아이디 선택자(아이디명 앞에 #을 붙임)*/
+/* 클래스 선택자(클래스명 앞에 .을 붙임)*/
+#main, #logo, nav, #site_content, footer{
+	margin-left: auto;/*왼쪽 바깥여백 auto*/
+	margin-right: auto;/*오른쪽 바깥여벡 auto*/
+}
+
+#main{
+	padding-bottom: 20px;
+}
+
+header{
+	background-color: transparent;/*투명*/
+	height: 170px;
+}
+
+#logo{
+	width:860px;
+	position: relative;/**/
+	height: 134px;
+}
+
+#logo h1{
+	font-size: 300%;
+	padding: 24px 0 0 0;
+	margin: 0;
+	color: #c2c5dc;
+}
+
+#logo h2{
+	font-size: 120%;
+	padding: 4px 0 0 0;
+	color: #c2c5dc;
+}
+
+#logo h1, #logo h1 a,#logo h1 a:hover{
+	padding: 22px 0 0 0;
+	color: #c2c5dc;
+	text-decoration: none;
+}
+
+#logo h1 a:hover{
+	color: #c2c5dc;
+}
+
+nav{
+	height: 24px;
+	width: 900px;
+}
+
+/*메뉴 부분*/
+#menu{
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 5px 2px 0 0;
+}
+#menu li a{
+	display: black;
+	font-size: 100%;
+	height: 20px;
+	padding: 6px 20px 5px 20px;
+	text-align: center;
+	margin: 5px 2px 0 0;
+	background:#e1e1f0;
+	text-decoration: none;
+}
+
+#menu li a:hover{
+	background: #c0c0c0;
+	color: #c2c5dc;
+}
+
+/*본문 부분*/
+#site_content{
+	width: 858px;
+	overflow: hidden;/*보여지는 너비보다 클 경우 숨김*/
+	margin: 0 auto;/*위, 아래 0, 왼, 오른 auto*/
+	padding: 10px 20px 20px 20px;
+	border: 15px solid #fff; /*굵은 실선(흰색) 테두리 설정*/
+	background: #f6f6f6 url(back2.jpg) repeat-y;
+}
+#site_content aside{
+	float: right;
+	width: 190px;
+	padding: 0 15px 20px 15px;
+}
+
+#site_content aside ul{
+	width: 178px;
+	padding: 4px 0 0 0;
+	margin: 4px 0 20px 0;
+}
+
+#site_content aside ul li{
+	list-style: none;
+	display: block;
+	line-height: 1.7em;
+	padding: 0 0 0 30px;
+	background:transparent url(back.jpg) no-repeat
+}
+
+section{
+	width: 613px;
+	padding: 0;
+	text-align: left; /*왼쪽 정렬*/
+}
+
+article{
+	margin: 0 0 20px 0;
+}
+
+table{
+	width: 100%;
+	height: 0;
+	margin: 7px 0 14px 0;
+}
+
+caption{
+	font-size: 16px;
+	color: #8080ff;
+	margin: 5px;
+}
+
+th, td{
+	background-color: #b8a0b4;
+	color:#f0dff0;
+	padding: 5px 4px;
+	text-align: center;
+}
+
+td{
+	background-color: #f0dff0;
+	color: #b8a0b4;
+	border-bottom: 1px solid 
+}
+
+h4{
+	font-size: 120%;
+}
+
+footer{
+	margin: 0 auto;/*가운데 정렬처럼 하기 위해*/
+	width: 90%;
+	font-size: 90%;
+	height:20px;
+	padding: 20px 0 5px 0;
+	text-align: center;
+	background: transparent;
+	color: #c0c0c0;
+	letter-spacing: 0.1em;/*글자 간격 설정*/
+	text-transform: uppercase;/*모두 대문자로*/
+}
+
+footer p{
+	line-height: 24px;
+	padding: 0;
+}
+
+footer p a, footer p a:hover{
+	color: purple;
+	text-decoration: underline;
+	
+}
